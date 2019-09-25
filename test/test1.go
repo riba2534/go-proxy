@@ -58,6 +58,13 @@ func handleClientRequest(client net.Conn) {
 			return
 		}
 		defer server.Close()
+		/*
+			+----+-----+-------+------+----------+----------+
+			|VER | REP |  RSV  | ATYP | BND.ADDR | BND.PORT |
+			+----+-----+-------+------+----------+----------+
+			| 1  |  1  | X'00' |  1   | Variable |    2     |
+			+----+-----+-------+------+----------+----------+
+		*/
 		client.Write([]byte{0x05, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}) //响应客户端连接成功
 		//进行转发
 		go io.Copy(server, client)
