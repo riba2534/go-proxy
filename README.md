@@ -27,5 +27,13 @@
 
 1. [Go 中 io 包的使用方法](https://segmentfault.com/a/1190000015591319#articleHeader11)
 2. [Go语言中的TCP/IP网络编程](https://segmentfault.com/a/1190000014733620)
-3. [Go语言实战笔记（十八）| Go log 日志](flysnow.org/2017/05/06/go-in-action-go-log.html)
+3. [Go语言实战笔记（十八）| Go log 日志](http://flysnow.org/2017/05/06/go-in-action-go-log.html)
 4. [《Go语言标准库》](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
+
+
+## 其他代理相关
+
+1. [golang 实现反向代理和静态文件服务](https://golangnote.com/topic/132.html)
+2. [Golang 实现多域名反向代理](https://golangnote.com/topic/212.html)
+3. [golang 实现HTTP Proxy](https://golangnote.com/topic/141.html)
+4. 
