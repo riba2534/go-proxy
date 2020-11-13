@@ -14,6 +14,7 @@
 4. [精·socks5 协议详解](https://jiajunhuang.com/articles/2019_06_06-socks5.md.html)
 5. [socks5 协议简介](http://zhihan.me/network/2017/09/24/socks5-protocol/)
 6. [由浅入深写代理](https://zhuanlan.zhihu.com/p/28645724)
+7. https://learnku.com/articles/37868
 
 
 ### GitHub
